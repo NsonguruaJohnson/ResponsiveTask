@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* align-content: center; */
+    /* position: relative; */
+   
+}
+.navbar a {
+    text-decoration: none;
+    padding-left: 30px;
+}
+.hero-section {
+    padding-top: 6rem;
+    /* padding-right: 4rem; */
+    padding-left: 9rem;
+    /* padding: 10rem; */
+    /* display: grid; */
+    /* grid-template-columns: auto auto; */
+    /* justify-content: center; */
+}
+.contactless {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.introducing{
+    display: flex;
+    color: #148cc8;
+    align-items: center;
+
+}
+hr {
+    width: 5%;
+    height: 0px;
+    border: 1px solid#148cc8;
+}
+.hero-section h1 {
+    margin-bottom: 1rem;
+}
+.hero-section p {
+    margin-bottom: 2rem;
+}
+.download-play {
+    /* display: flex;
+    align-content: center;
+    align-items: center; */
+}
+.download {
+    padding: 12px 30px;
+    background-color: #148cc8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 1rem;
+}
+.how-it-works {
+    background-color: transparent;
+    color: #148cc8;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    
+}
+.fa-play-circle-o {
+    color: #148cc8;
+    padding-right: 5px; 
+}
+.tonia-images {
+    position: relative;
+    margin-bottom: 10rem;
+}
+.green {
+    position: absolute;
+    top: 5rem;
+}
+.simple {
+    /* padding-right: 6rem; */
+    margin-right: 6rem;
+    background-color: #082439;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 50px;
+    color: #fff;
+
+}
+.simple h2 {
+    margin-bottom: 20px;
+}
