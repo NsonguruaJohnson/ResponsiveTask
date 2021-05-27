@@ -16,7 +16,7 @@
 }
 .hero-section {
     padding-top: 6rem;
-    /* padding-right: 4rem; */
+    padding-right: 6rem;
     padding-left: 9rem;
     /* padding: 10rem; */
     /* display: grid; */
@@ -87,8 +87,201 @@ hr {
     padding-left: 30px;
     padding-top: 50px;
     color: #fff;
+    position: relative;
+    z-index: -1;
+
 
 }
 .simple h2 {
     margin-bottom: 20px;
+}
+.gooapp {
+    padding-bottom: 1rem;
+}
+.trophy {
+    width: 5%;
+    position: absolute;
+    top: -30px;
+    vertical-align: middle;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    
+}
+.avatar1 {
+    width: 5%;
+    position: absolute;
+    right: 200px;
+    top: -5.5rem;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    /* z-index: -1; */
+
+}
+.avatar2 {
+    width: 5%;
+    right: 100px;
+    top: 3rem;
+    position: absolute;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+}
+.easy {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    
+}
+.easylife {
+    color: #148cc8;
+}
+.easy-business {
+    position: relative;
+}
+.easy-business h6 {
+    font-weight: lighter;
+}
+.easy img {
+    /* border: 0px solid none; */
+    border-radius: 20px;
+}
+.easy-text {
+    position: absolute;
+    top: 50%;
+    background-color: #fff;
+    color: #000;
+    width: auto;
+    height: 150px;
+    padding-right: 60px;
+}
+.multiple {
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.press-phone {
+    border-radius: 20px;
+
+}
+.kingsley {
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    left: -2rem;
+}
+.smarter {
+    color: #148cc8;
+
+}
+.multiple h2 {
+    margin-bottom: 20px;
+}
+.receive {
+    margin-top: 10rem;
+    display: flex;
+}
+input[type=checkbox] {
+    margin-right: 10px;
+}
+.bank {
+    color: #148cc8;
+    /* padding-bottom: 1px !important; */
+}
+.check-p {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+
+}
+.bank-payment {
+    margin-left: 3rem;
+    position: relative;
+}
+.man-money {
+    border-radius: 20px;
+   
+    
+}
+.transaction {
+    position: absolute;
+    left: 30px;
+    top: -50px;   
+}
+.growth {
+    margin-top: 5rem;
+}
+.growth h2 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.growth h4 {
+    text-align: center;
+    font-weight: lighter;
+}
+.grid-container {
+    
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+    margin-bottom: 3rem;
+}
+.grid-item  {
+    background-color: honeydew;
+    padding-left: 10px;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+.who-can-use {
+    margin-top: 4rem;
+}
+.who-can-use h2 {
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    /* object-fit: cover; */
+}
+.images div {
+    position: relative;
+}
+.images p {
+    position: absolute;
+    bottom: 2px;
+    color: #fff;
+    padding-left: 10px;
+}
+.images img {
+    /* color: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)); */
+}
+.faqs {
+    margin-top: 6rem;
+}
+.faqs h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.faqs-icon {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding-left: 30px;
+    padding-right: 40px;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
