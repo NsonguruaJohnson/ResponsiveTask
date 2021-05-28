@@ -191,8 +191,9 @@ hr {
     margin-top: 10rem;
     display: flex;
 }
-input[type=checkbox] {
+.fa-check-circle-o {
     margin-right: 10px;
+    color: aquamarine;
 }
 .bank {
     color: #148cc8;
@@ -285,3 +286,102 @@ input[type=checkbox] {
     margin-bottom: 15px;
     border-radius: 5px;
 }
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .logo{
+        padding-left: 10px;
+        padding-bottom: 10px;
+
+        /* text-align: center; */
+    }
+    .navbar a {
+        text-decoration: none;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        display: block;
+    }
+    .hero-section {
+        /* text-align: center; */
+        padding-top: 3rem;
+        padding-right: 3rem;
+        padding-left: 4rem;
+    }
+    .contactless {
+        display: block;
+    }
+    .tonia-images {
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 10rem;
+    }
+    .avatar1, .avatar2 {
+        display: none;
+    }
+    .simple {
+        display: block;
+        background-color: #082439;
+        border-radius: 10px;
+        padding-left: 30px;
+        padding-top: 50px;
+        color: #fff;
+        /* position: relative; */
+        z-index: -1;
+    }
+    .easy {
+        display: block;
+    }
+    .easy-business img {
+        display: none;
+        
+    }
+    .easy-text {
+        display: none;
+    }
+    .multiple {
+        display: block;
+        margin-top: 1.5rem;
+    }
+    .press-phone {
+        width: 50%;
+        border-radius: 20px;
+    }
+    .kingsley {
+        display: none;
+    }
+    .smarter {
+        margin-top: 2rem;
+        margin-bottom: 10px !important;
+    }
+    .receive {
+        display: block;
+        margin-top: 2rem;
+    }
+    .bank {
+       margin-top: 3rem;
+       margin-bottom: 10px !important;
+
+    }
+    .bank-payment {
+        margin-top: 3rem;
+        position: relative;
+    }
+    .man-money {
+        
+        width: 80%;
+        border-radius: 20px;  
+    }
+    .transaction {
+        display: none;
+    }
+    .grid-container {
+        display: block;
+    }
+    .images {
+        display: block;
+    }
+  }
